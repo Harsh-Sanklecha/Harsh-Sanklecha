@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Harsh Creations</title>
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+      <div class="menu">
+          <ul>
+            <li><a class="active" href="file:///C:/Users/Laptop/Desktop/website/html/home.html">HOME</a></li>
+            <li><a href="file:///C:/Users/Laptop/Desktop/website/html/showcase.html">SHOWCASE</a></li>
+            <li><a href="file:///C:/Users/Laptop/Desktop/website/html/about.html">ABOUT</a></li>
+            <li><a href="file:///C:/Users/Laptop/Desktop/website/html/contact.html">CONTACT</a></li>
+            <li><a href="file:///C:/Users/Laptop/Desktop/website/html/book.html">BOOK ONLINE</a></li>
+          </ul>
+      </div>
+      </nav>
+    </header>
+    <div class="middle">
+      <a class="btn" href="#">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a class="btn" href="#">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a class="btn" href="#">
+        <i class="fab fa-google"></i>
+      </a>
+      <a class="btn" href="#">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a class="btn" href="#">
+        <i class="fab fa-youtube"></i>
+      </a>
+    </div>
+    <div class="content">
+      <span class="text1">WELCOME TO</span>
+      <span class="text2">HARSH CREATIONS</span>
+    </div>
+    <script type="text/javascript">
+
+        $(window).on("scroll", function(){
+          if($(window).scrollTop()){
+            $('nav').addClass('black')
+          }
+          else{
+            $('nav').removeClass('black')
+          }
+
+        })
+
+    </script>
+  </body>
+</html>

@@ -136,7 +136,7 @@ header ul li a:hover {
 .name {
   margin-top: 150px;
   margin-left: 10px;
-  width: 600px;
+  width: 80%;
   height: 40px;
   font-size: 17px;
   background-color: #1a1a1a;
@@ -152,7 +152,7 @@ header ul li a:hover {
 .email {
   margin-top: 30px;
   margin-left: 10px;
-  width: 600px;
+  width: 80%;
   height: 40px;
   font-size: 17px;
   background-color: #1a1a1a;
@@ -168,7 +168,7 @@ header ul li a:hover {
 .subject {
   margin-top: 30px;
   margin-left: 10px;
-  width: 600px;
+  width: 80%;
   height: 40px;
   font-size: 17px;
   background-color: #1a1a1a;
@@ -184,7 +184,7 @@ header ul li a:hover {
 .message {
   margin-top: 30px;
   margin-left: 10px;
-  width: 600px;
+  width: 80%;
   height: 130px;
   font-size: 17px;
   background-color: #1a1a1a;
@@ -200,7 +200,7 @@ header ul li a:hover {
 .button {
   margin-top: 30px;
   margin-left: 10px;
-  width: 150px;
+  width: 20%;
   height: 38px;
   background-color: #b38600;
   border: 2px solid #b38600;
